@@ -1,3 +1,5 @@
+# credit to bence for the idea
+
 import tweepy
 import keys
 
