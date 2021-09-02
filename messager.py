@@ -22,6 +22,7 @@ auth = tweepy.OAuthHandler(keys.ckey, keys.csecret)
 auth.set_access_token(keys.atoken, keys.asecret)
 api = tweepy.API(auth)
 
+#must provide username here
 user = api.get_user('jack')
 
 listener = MyListener(user)
